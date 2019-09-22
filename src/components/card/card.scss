@@ -4,7 +4,7 @@
 }
 .card {
   list-style: none;
-  width: 22%;
+  width: 44%;
   padding-bottom: 15px;
   margin: 1%;
   & p {
@@ -15,5 +15,11 @@
   & .card-img-top {
     min-height: 200px;
     background-color: #ccc;
+  }
+}
+/*media queries */
+@media screen and (min-width: 992px) {
+  .card {
+    width: 22%;
   }
 }
